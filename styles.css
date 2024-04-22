@@ -13,7 +13,7 @@ img {
 header,
 .intro {
   background-color: #1f2937;
-  color: wheat;
+  color: #f9faf8;
 }
 
 .logo {
@@ -29,13 +29,13 @@ header,
 
 .logo h2 {
   margin: 0;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 a {
   text-decoration-line: none;
-  color: wheat;
-  font-size: 24px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 ul {
@@ -48,7 +48,41 @@ li {
 
 header {
   display: flex;
-  padding: 0 200px;
+  padding: 5px 200px;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  padding: 50 200px;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro img {
+  height: 300px;
+  width: 1000px;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  padding: 15px 35px;
+  border-radius: 15px;
+  color: #e5e7eb;
 }
