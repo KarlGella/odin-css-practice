@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+footer {
+  margin: 0px;
+  padding: 0px 250px;
+}
+img {
+  height: auto;
+  width: 200px;
+}
+
+header,
+.intro {
+  background-color: #1f2937;
+  color: wheat;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+a {
+  text-decoration-line: none;
+  color: wheat;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  gap: 12px;
+}
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  padding: 0 200px;
+  justify-content: space-between;
+  align-items: center;
+}
